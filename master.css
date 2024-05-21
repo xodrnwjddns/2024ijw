@@ -1,0 +1,671 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+}
+
+
+.box01{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-position: center;
+    position: relative; 
+    background-size: cover;
+    border: 0px solid red;
+}
+
+.bg{
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    border: 0px solid red;
+    background-image: url(img/m01.png);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-position: center;
+    position: absolute;
+    background-size: cover;
+}
+
+.t01{
+    width: 100%;
+    height: 800px;
+    position: absolute; 
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-position: center;
+    position: absolute;
+    background-size: cover;
+}
+
+.box02{
+    width: 100%;
+    height: 2276px;
+    background-color:aqua;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-position: center;
+    position: relative; 
+    background-size: cover;
+}
+
+.tx1{
+    width: 1280px;
+    position: relative; 
+
+}
+.t02{
+    width: 100%;
+    height: 2276px;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-position: center;
+    position: relative; 
+    background-size: cover;
+}
+
+.iii{
+        border: 0px solid red;
+
+}
+.im01 {
+    width: 610px;
+    margin-left: -670px;
+    margin-top: -1000px; /* 이미지를 화면 상단에 정렬 */
+    position: absolute;
+    border: 0px solid red;
+    z-index: 1; /* 이미지를 다른 요소들보다 위에 위치하도록 설정 */
+}
+
+
+
+
+.im02{
+    width: 610px;
+    margin-top: -1000px; 
+    margin-left: -670px;
+    position: absolute; 
+    border: 0px solid red;
+}
+
+.im022{
+    border: 0px solid red;
+    margin-left: 670px;
+}
+  
+
+.ttt01{
+    width: 1280px;
+    position: absolute; 
+    text-align: left;
+    margin-top: -470px;
+    border: 0px solid red;
+}
+
+.im03{
+    width: 610px;
+    margin-left: -670px;
+    margin-top: 250px; 
+    position: absolute; 
+    border: 0px solid red;
+    z-index: 1;
+}
+
+.im04{
+    width: 610px;
+    margin-top: 250px;
+    margin-left: -670px;
+    position: absolute; 
+    border: 0px solid red;
+    
+}
+
+.im044{
+    border: 0px solid red;
+    margin-left: 670px;
+}
+
+.ttt02{
+    width: 1280px;
+    position: absolute; 
+    text-align: left;
+    margin-top: 781px;
+    border: 0px solid red;
+}
+
+.im05{
+    width: 610px;
+    margin-top: 1500px;
+    margin-left: -670px;
+    position: absolute; 
+    border: 0px solid red;
+}
+
+.im06{
+    width: 610px;
+    margin-top: 1500px;
+    margin-left: 670px;
+    position: absolute; 
+    border: 0px solid red;
+}
+
+.ttt03{
+    width: 1280px;
+    position: absolute; 
+    text-align: left;
+    margin-top: 2030px;
+    border: 0px solid red;
+}
+
+/*-------------------*/
+.sbox01 {
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1134px;
+    background-color: black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.sbox02 {
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1585px;
+    background-color: black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.sbox03 {
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1519px;
+    background-color: black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.sbox04 {
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1558px;
+    background-color: black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.sbox05 {
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1636px;
+    background-color: black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.sbox06 {
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1021px;
+    background-color: black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.sbox07 {
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1374px;
+    background-color: black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center; 
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+
+.wbox01{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1933px;
+    background-image: url(img/sbg01.png);
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.wbox02{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1653px;
+    background-color: black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.wbox03{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 2859px;
+    background-image: url(img/sbg02.png);
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.wbox04{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 2079px;
+    background-color: black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.wbox05{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 2360px;
+    background-color: black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+
+.ebox01{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1859px;
+    background-image: url(img/ebg01.png);
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.ebox02{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1150px;
+    background-color: #EFF2F5;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.ebox03{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1700px;
+    background-color: #41454D;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.ebox04{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1588px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.ebox05{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 555px;
+    background-color:#ffffff;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+
+.rbox01{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 927px;
+    background-color:black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.rbox02{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1142px;
+    background-color:black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.rbox03{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1252px;
+    background-color:black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.rbox04{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1400px;
+    background-color:black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.rbox05{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1183px;
+    background-color:black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.rbox06{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1201px;
+    background-color:black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.rbox07{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1618px;
+    background-color:black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.rbox08{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 761px;
+    background-color:black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+/*//////////////*/
+
+.tbox01{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 922px;
+    background-color:#2A2E36;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.tbox02{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1717px;
+    background-color:black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+.tbox03{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 976px;
+    background-color:black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.tbox04{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 880px;
+    background-color:#ffffff;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.tbox05{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1450px;
+    background-color:ffffff;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.tbox06{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 2207px;
+    background-color:black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+
+.hbox01{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1360px;
+    background-color:black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.hbox02{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 1388px;
+    background-color:black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.hbox03{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 2106px;
+    background-color:black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.hbox04{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 2084px;
+    background-color:black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.hbox05{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 2391px;
+    background-color:black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative; 
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+.ft{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 293px;
+    background-color:black;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative; 
+    background-size: auto; /* 또는 다른 값으로 변경 */
+
+}
+
+
+
+
+
+
+
+
