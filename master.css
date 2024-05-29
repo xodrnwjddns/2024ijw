@@ -86,7 +86,7 @@
 .im01 {
     width: 610px;
     margin-left: -670px;
-    margin-top: -1000px; /* 이미지를 화면 상단에 정렬 */
+    margin-top: -1100px; /* 이미지를 화면 상단에 정렬 */
     position: absolute;
     border: 0px solid red;
     z-index: 1; /* 이미지를 다른 요소들보다 위에 위치하도록 설정 */
@@ -97,7 +97,7 @@
 
 .im02{
     width: 610px;
-    margin-top: -1000px; 
+    margin-top: -1100px; 
     margin-left: -670px;
     position: absolute; 
     border: 0px solid red;
@@ -113,14 +113,14 @@
     width: 1280px;
     position: absolute; 
     text-align: left;
-    margin-top: -470px;
+    margin-top: -570px;
     border: 0px solid red;
 }
 
 .im03{
     width: 610px;
     margin-left: -670px;
-    margin-top: 250px; 
+    margin-top: 150px; 
     position: absolute; 
     border: 0px solid red;
     z-index: 1;
@@ -128,7 +128,7 @@
 
 .im04{
     width: 610px;
-    margin-top: 250px;
+    margin-top: 150px;
     margin-left: -670px;
     position: absolute; 
     border: 0px solid red;
@@ -144,13 +144,13 @@
     width: 1280px;
     position: absolute; 
     text-align: left;
-    margin-top: 781px;
+    margin-top: 681px;
     border: 0px solid red;
 }
 
 .im05{
     width: 610px;
-    margin-top: 1500px;
+    margin-top: 1400px;
     margin-left: -670px;
     position: absolute; 
     border: 0px solid red;
@@ -158,7 +158,7 @@
 
 .im06{
     width: 610px;
-    margin-top: 1500px;
+    margin-top: 1400px;
     margin-left: 670px;
     position: absolute; 
     border: 0px solid red;
@@ -168,7 +168,7 @@
     width: 1280px;
     position: absolute; 
     text-align: left;
-    margin-top: 2030px;
+    margin-top: 1930px;
     border: 0px solid red;
 }
 
