@@ -520,6 +520,21 @@
     background-size: auto; /* 또는 다른 값으로 변경 */
 }
 
+.rbox09{
+    width: auto; /* 또는 적절한 값으로 변경 */
+    height: 664px;
+    background-color:black;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center; /* 또는 다른 값으로 변경 */
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-size: auto; /* 또는 다른 값으로 변경 */
+}
+
+
+
 /*//////////////*/
 
 .tbox01{
